@@ -49,23 +49,6 @@ The project follows a complete machine learning pipeline—from relational datab
 - 📁 Modular project architecture
 
 
-                Student Profile
-                       │
-                       ▼
-          FastAPI Backend (REST APIs)
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
- Placement Model   Recommendation   Guidance
- (Random Forest)      Engine         Engine
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-              JSON API Response
-                       ▼
-            Streamlit Frontend UI
-
-
 ## 🛠 Tech Stack
 
 | Category | Technologies |
