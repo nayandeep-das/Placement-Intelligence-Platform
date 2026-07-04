@@ -104,13 +104,13 @@ Placement-Intelligence-Platform
 
 ### Placement Prediction
 
-![Prediction](screenshots/frontend/prediction.png)
+![Prediction](screenshots/frontend/frontend_strong_results.png)
 
 ---
 
 ### Personalized Guidance
 
-![Guidance](screenshots/frontend/guidance.png)
+![Guidance](screenshots/frontend/frontend_strong_guidance.png)
 
 ---
 
