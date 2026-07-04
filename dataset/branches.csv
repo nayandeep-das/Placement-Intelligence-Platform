@@ -1,0 +1,9 @@
+BranchCode,BranchName,BranchType
+BT,Biotechnology,Research
+MME,Metallurgy & Materials Engineering,Core
+CHE,Chemical Engineering,Core
+CE,Civil Engineering,Core
+ME,Mechanical Engineering,Core
+EE,Electrical Engineering,Core
+ECE,Electronics & Communication Engineering,Core+Non-Core
+CSE,Computer Science & Engineering,Non-Core

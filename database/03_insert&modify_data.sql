@@ -1,0 +1,63 @@
+USE placement_platform;
+DESCRIBE Roles;
+SHOW CREATE TABLE Roles;
+
+ALTER TABLE Roles
+MODIFY COLUMN RoleType VARCHAR(50) NOT NULL;
+
+DELETE FROM Roles;
+
+ALTER TABLE Roles AUTO_INCREMENT = 1;
+
+DELETE FROM Companies;
+
+ALTER TABLE Companies AUTO_INCREMENT = 1;
+
+DELETE FROM Skills;
+
+ALTER TABLE Skills AUTO_INCREMENT = 1;
+
+DESCRIBE Skills;
+
+DESCRIBE Branches;
+
+DESCRIBE RoleSkills;
+
+DESCRIBE Students;
+
+DESCRIBE CompanyEligibility;
+
+SELECT COUNT(*) FROM Skills;
+
+DELETE FROM RoleSkills;
+
+ALTER TABLE Skills
+ADD COLUMN SkillCategory VARCHAR(50) AFTER SkillName;
+
+DELETE FROM CompanyRoles;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+DELETE FROM StudentSkills;
+DELETE FROM Placements;
+DELETE FROM Students;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+ALTER TABLE Students AUTO_INCREMENT = 1;
+ALTER TABLE Placements AUTO_INCREMENT = 1;
+
+SELECT PlacementStatus, COUNT(*)
+FROM Students
+GROUP BY PlacementStatus;
+
+SELECT COUNT(*) FROM Students;
+SELECT COUNT(*) FROM Companies;
+SELECT COUNT(*) FROM Roles;
+SELECT COUNT(*) FROM Skills;
+SELECT COUNT(*) FROM Branches;
+SELECT COUNT(*) FROM CompanyRoles;
+SELECT COUNT(*) FROM RoleSkills;
+SELECT COUNT(*) FROM CompanyEligibility;
+SELECT COUNT(*) FROM StudentSkills;
+SELECT COUNT(*) FROM Placements;
