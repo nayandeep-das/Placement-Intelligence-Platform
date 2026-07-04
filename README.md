@@ -98,7 +98,7 @@ Placement-Intelligence-Platform
 
 ### Home Screen
 
-![Home](screenshots/frontend/home.png)
+![Home](screenshots/frontend/frontend_default.png)
 
 ---
 
@@ -116,7 +116,7 @@ Placement-Intelligence-Platform
 
 ### FastAPI Documentation
 
-![Swagger](screenshots/backend/swagger_home.png)
+![Swagger](screenshots/backend/backend_home.png)
 
 
 ## 🤖 Machine Learning
